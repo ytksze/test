@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="select favorite color.">d8d0d16a1b1711107221877ddc4bcb93</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 05:37:31</sys_created_on>
+        <sys_id>3b11196a1b1711107221877ddc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Red</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>question_choice_3b11196a1b1711107221877ddc4bcb45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-24 05:37:31</sys_updated_on>
+        <text>Red</text>
+        <value>red</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3b11196a1b1711107221877ddc4bcb45"/>
+</record_update>
