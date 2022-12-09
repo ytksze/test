@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="submitter" label="Submitter" language="en" table="x_921453_test_document_approval">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>submitter</element>
+            <help/>
+            <hint/>
+            <label>Submitter</label>
+            <language>en</language>
+            <name>x_921453_test_document_approval</name>
+            <plural>Submitters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_name>Submitter</sys_name>
+            <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+            <sys_update_name>sys_documentation_x_921453_test_document_approval_submitter_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

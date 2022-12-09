@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Infinity">f43ec5a61b1711107221877ddc4bcb62</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 05:29:17</sys_created_on>
+        <sys_id>d33f09a61b1711107221877ddc4bcb29</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Service Catalog.Infinity</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d33f09a61b1711107221877ddc4bcb29</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-24 05:32:51</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="test">2b9a8cd38d221110d5125b5353465bd9</application>
+        <file_path/>
+        <instance_id>76d4ecb5dbd4cc5007072f17d4961927</instance_id>
+        <instance_name>dev94282</instance_name>
+        <name>sc_cat_item_catalog_d33f09a61b1711107221877ddc4bcb29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Infinity">f43ec5a61b1711107221877ddc4bcb62</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-24 05:29:17</sys_created_on><sys_id>d33f09a61b1711107221877ddc4bcb29</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Service Catalog.Infinity</sys_name><sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package><sys_policy/><sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope><sys_update_name>sc_cat_item_catalog_d33f09a61b1711107221877ddc4bcb29</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-11-24 05:32:51</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>313395022</payload_hash>
+        <record_name>Service Catalog.Infinity</record_name>
+        <reverted_from/>
+        <source>12c39d2e1b1711107221877ddc4bcb41</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-24 05:49:10</sys_created_on>
+        <sys_id>62c39d2e1b1711107221877ddc4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a82ece2e0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-24 05:49:10</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>66c39d2eac171110cabb8637aee04145</update_guid>
+        <update_guid_history>66c39d2eac171110cabb8637aee04145:313395022,6b00952a4f1711106dcf22357e012bb2:342460762</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Infinity">a6c39d2e1b1711107221877ddc4bcb49</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-24 05:49:10</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>b07152566af1468e966c95bffc33bec1</sys_id>
+        <sys_metadata>d33f09a61b1711107221877ddc4bcb29</sys_metadata>
+        <sys_name>Service Catalog.Infinity</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_parent display_value="Infinity">f43ec5a61b1711107221877ddc4bcb62</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_scope_delete display_value="">4cb1c96624074476b6927644a3e26509</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d33f09a61b1711107221877ddc4bcb29</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d33f09a61b1711107221877ddc4bcb29">62c39d2e1b1711107221877ddc4bcb46</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

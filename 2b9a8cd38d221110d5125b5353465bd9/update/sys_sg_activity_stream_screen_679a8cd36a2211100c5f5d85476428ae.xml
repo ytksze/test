@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_activity_stream_screen">
+    <sys_sg_activity_stream_screen action="INSERT_OR_UPDATE">
+        <add_additional_comment_button>true</add_additional_comment_button>
+        <add_attachment_button>false</add_attachment_button>
+        <add_work_note_button>true</add_work_note_button>
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Circle - Orange">4a4743beff061300f1f2883b73e11c45</icon>
+        <name>Activity</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:09</sys_created_on>
+        <sys_id>679a8cd36a2211100c5f5d85476428ae</sys_id>
+        <sys_name>Activity</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_activity_stream_screen_679a8cd36a2211100c5f5d85476428ae</sys_update_name>
+        <table>x_921453_test_document_approver</table>
+    </sys_sg_activity_stream_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=679a8cd36a2211100c5f5d85476428ae"/>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="doc_submitted">af9a8cd35c221110633e3fe3b1364999</macroponent>
+        <name>View Doc Redirection</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+api,
+event,
+helpers,
+imports
+}) {
+    if(api.data.look_up_record_1.items.length> 0)
+    helpers.navigate.to("doc_view",{"sysId":api.data.look_up_record_1.items[4].value});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:20</sys_created_on>
+        <sys_id>279a8cd3eb22111031b02413e9527299</sys_id>
+        <sys_name>View Doc Redirection</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_client_script_279a8cd3eb22111031b02413e9527299</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

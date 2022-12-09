@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Doc Approval Workspace App Config">a79a8cd36f2211100b58b4dfe7a914d8</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>List</name>
+        <optional_parameters>listId,query</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>list</route_type>
+        <screen_type display_value="List">2b9a8cd3b12211108295421efd844d9d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:56</sys_created_on>
+        <sys_id>679a8cd3812211102c8183f517a7509d</sys_id>
+        <sys_name>List</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_app_route_679a8cd3812211102c8183f517a7509d</sys_update_name>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=679a8cd3812211102c8183f517a7509d"/>
+</record_update>

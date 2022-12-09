@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="List Admin">279a8cd36a221110865c99ed084ff6a2</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event: {payload, payload: {name, value}}, helpers, imports}) {
+    if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'inserted', 'deleted', 'closed'];
+        const map = value.entries().next().value[1];        
+        const {operation, sysId, timestamp} = map.activities.get('crud')[0];
+        if (operationList.includes(operation) && sysId !== "-1") {
+            api.setState('listRefresh', {timestamp, background: true });
+        }         
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:58</sys_created_on>
+        <sys_id>ab9a8cd3f9221110a8938d4bb6d57e9b</sys_id>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_client_script_ab9a8cd3f9221110a8938d4bb6d57e9b</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

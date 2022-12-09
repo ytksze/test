@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>DATA_CARD_CLICKED</event_name>
+        <interfaces/>
+        <label>Data Card Clicked</label>
+        <props>[{"name":"sysid","fieldType":"","label":"Syd ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[{"message":"Syd ID","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:12</sys_created_on>
+        <sys_id>6f9a8cd36722111078eb7cef523b20a1</sys_id>
+        <sys_name>Data Card Clicked</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_event_6f9a8cd36722111078eb7cef523b20a1</sys_update_name>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f9a8cd36722111078eb7cef523b20a1"/>
+</record_update>

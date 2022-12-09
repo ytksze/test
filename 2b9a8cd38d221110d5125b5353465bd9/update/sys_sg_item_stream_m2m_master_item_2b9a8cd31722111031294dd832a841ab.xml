@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Approvals this year Item Stream">eb9a8cd37c221110999b8affea17bfab</item_stream>
+        <master_item display_value="Approvals this year Main Item">6b9a8cd338221110f168f239d77262ab</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:09</sys_created_on>
+        <sys_id>2b9a8cd31722111031294dd832a841ab</sys_id>
+        <sys_name/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_2b9a8cd31722111031294dd832a841ab</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

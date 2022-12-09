@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Return document">2b9a8cd344221110b0ad07f0f8c15aae</button>
+        <item_parameter display_value="comments">a79a8cd3c02211106e0cb8cf685250ae</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:02</sys_created_on>
+        <sys_id>e79a8cd310221110dacdfbfd2a3edaae</sys_id>
+        <sys_name>a79a8cd3c02211106e0cb8cf685250ae</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_e79a8cd310221110dacdfbfd2a3edaae</sys_update_name>
+        <ui_parameter display_value="Reason for returning">a39a8cd3ba221110896b1af07e1f29af</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search results">2f9a8cd37b2211102f40fcd93d0e2b99</macroponent>
+        <name>searchTab</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event, imports, helpers}) {
+	helpers.screen.updateStatus({title: 'Search Results'});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:54</sys_created_on>
+        <sys_id>eb9a8cd352221110bdcdfd82fdfc1899</sys_id>
+        <sys_name>searchTab</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_client_script_eb9a8cd352221110bdcdfd82fdfc1899</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

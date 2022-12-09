@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="test Workspace">6b9a8cd3052211104809d347f6645fd8</page>
+        <required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ef9a8cd337221110c21353d746a3e392</sys_id>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_page_property_ef9a8cd337221110c21353d746a3e392</sys_update_name>
+        <type>json</type>
+        <unique_name>x_921453_test.6b9a8cd3052211104809d347f6645fd8.root.chrome_toolbar</unique_name>
+        <value>[&#13;
+  {&#13;
+    "id": "home",&#13;
+    "label": {&#13;
+      "translatable": true,&#13;
+      "message": "Home"&#13;
+    },&#13;
+    "icon": "home-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "home"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  },&#13;
+  {&#13;
+    "id": "list",&#13;
+    "label": {&#13;
+      "translatable": true,&#13;
+      "message": "List"&#13;
+    },&#13;
+    "icon": "list-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "list"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  }&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef9a8cd337221110c21353d746a3e392"/>
+</record_update>

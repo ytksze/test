@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="test">e39a8cd37a2211106e7ece61062f6fae</applet_launcher>
+        <order>20</order>
+        <section display_value="New Document Approvals">ef9a8cd38022111063428c958ce4cfad</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:09</sys_created_on>
+        <sys_id>a39a8cd3c3221110a226042bd64decae</sys_id>
+        <sys_name/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_a39a8cd3c3221110a226042bd64decae</sys_update_name>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

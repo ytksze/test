@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_form_header_secondary_values">
+    <sys_aw_form_header_secondary_values action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <field>approval_category</field>
+        <form_header display_value="x_921453_test_document_approval">af9a8cd3da221110ee1bdb44ad3622d0</form_header>
+        <order>200</order>
+        <roles/>
+        <sys_class_name>sys_aw_form_header_secondary_values</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:13</sys_created_on>
+        <sys_id>eb9a8cd34822111099ddda3ffde6d5d0</sys_id>
+        <sys_name>approval_category</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_aw_form_header_secondary_values_eb9a8cd34822111099ddda3ffde6d5d0</sys_update_name>
+    </sys_aw_form_header_secondary_values>
+</record_update>

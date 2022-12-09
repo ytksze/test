@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "workspace_global_search_tab",
+  "elementLabel" : "Workspace global search tab",
+  "propertyValues" : {
+    "term" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchTerm" ],
+        "category" : "props"
+      }
+    },
+    "globalSearchViewConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "globalSearchViewConfigId" ],
+        "category" : "props"
+      }
+    },
+    "globalSearchDataConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "globalSearchDataConfigId" ],
+        "category" : "app"
+      }
+    },
+    "hideSearchResultsCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "backButtonLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "selectedSearchContext" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "batchCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : 0
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckdtebbvwcaaaaaafddhhhcciaagggjqkf",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_ui_globalsearch.SN_COMPONENT_WORKSPACE_GLOBAL_SEARCH_TAB#RECORD_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_ui_globalsearch.SN_COMPONENT_WORKSPACE_GLOBAL_SEARCH_TAB#RECORD_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "639a8cd39a22111092838d65b46bb19a"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckfccrzuliiaaaabblddghhacrcdaauddy",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "ckdteaahhlhhaaaaaadddhhhccsbbccoozhhii",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_ui_globalsearch.SN_COMPONENT_WORKSPACE_GLOBAL_SEARCH_TAB#SEARCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_ui_globalsearch.SN_COMPONENT_WORKSPACE_GLOBAL_SEARCH_TAB#SEARCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "eb9a8cd352221110bdcdfd82fdfc1899"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckdteaacijjaaaaaaeddhhhcchffodjwggf",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2e3733f64f72717ba78f867f31ef5491",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "367f89e30b102010a8b1c96237673a85",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "dynamic_routing_search_result",
+  "elementLabel" : "Dynamic Routing Search Result",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "routeConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "routeConfigId" ],
+        "category" : "app"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events>83e447ee0b621010a8b1c96237673a8d,0fe447ee0b621010a8b1c96237673a92,5fe447ee0b621010a8b1c96237673ab6</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"styles":{},"rules":{},"element_id":"workspace_global_search_tab"}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : null,
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Search results</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "searchTerm",
+  "label" : null,
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : true,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "globalSearchViewConfigId",
+  "label" : null,
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : true,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "searchTermValue",
+  "label" : "searchTermValue",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{
+  "bare" : true
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:57</sys_created_on>
+        <sys_id>2f9a8cd37b2211102f40fcd93d0e2b99</sys_id>
+        <sys_name>Search results</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_macroponent_2f9a8cd37b2211102f40fcd93d0e2b99</sys_update_name>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2f9a8cd37b2211102f40fcd93d0e2b99"/>
+</record_update>

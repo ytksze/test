@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="di_doc_approvals_this_month">ef9a8cd3d822111004628f227db64cac</data_item>
+        <interleaved_field/>
+        <name>Approvals this month Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:14</sys_created_on>
+        <sys_id>6f9a8cd3fb22111044d18d2afb24a5ab</sys_id>
+        <sys_name>Approvals this month Item Stream</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_item_stream_6f9a8cd3fb22111044d18d2afb24a5ab</sys_update_name>
+        <table>x_921453_test_document_approver</table>
+    </sys_sg_item_stream>
+</record_update>

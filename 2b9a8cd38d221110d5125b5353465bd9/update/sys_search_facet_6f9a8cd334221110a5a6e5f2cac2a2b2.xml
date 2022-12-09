@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>x_921453_test_document_approval.approval_category</ais_facet_name>
+        <label>Category</label>
+        <name>Category</name>
+        <option_limit>10</option_limit>
+        <order>50</order>
+        <search_context_config display_value="Document Approval Portal Search Configuration">af9a8cd3dc221110aa1d02e7a8c829b2</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:09</sys_created_on>
+        <sys_id>6f9a8cd334221110a5a6e5f2cac2a2b2</sys_id>
+        <sys_name>x_921453_test_document_approval.approval_category</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_search_facet_6f9a8cd334221110a5a6e5f2cac2a2b2</sys_update_name>
+    </sys_search_facet>
+</record_update>

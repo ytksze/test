@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Return document">2b9a8cd344221110b0ad07f0f8c15aae</button>
+        <color_theme>secondary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Return</label>
+        <location>footer</location>
+        <name>Return</name>
+        <order>20</order>
+        <parent>e39a8cd3a62211102a0ecea0aea012ad</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:20</sys_created_on>
+        <sys_id>a79a8cd3062211107c20f53600d74aad</sys_id>
+        <sys_name>Return</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a79a8cd3062211107c20f53600d74aad</sys_update_name>
+        <table>x_921453_test_document_approver</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=a79a8cd3062211107c20f53600d74aad"/>
+</record_update>

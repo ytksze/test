@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:02</sys_created_on>
+        <sys_id>eb9a8cd3182211106a746a88556b25af</sys_id>
+        <sys_name>x_921453_test_document_approval_category.</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_security_acl display_value="x_921453_test_document_approval_category">e39a8cd3d9221110bc4d2e91a232ecb0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_eb9a8cd3182211106a746a88556b25af</sys_update_name>
+        <sys_user_role display_value="x_921453_test.admin" name="x_921453_test.admin">6f9a8cd3b3221110d00b48f51e04a0d8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

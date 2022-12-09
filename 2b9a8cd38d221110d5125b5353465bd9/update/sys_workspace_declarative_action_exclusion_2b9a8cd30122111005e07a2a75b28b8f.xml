@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
+        <action_assignment display_value="edit_({{count}})">4a9232b273131010a0a79329faf6a732</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>true</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:11</sys_created_on>
+        <sys_id>2b9a8cd30122111005e07a2a75b28b8f</sys_id>
+        <sys_name>x_921453_test_document_approval_category</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_2b9a8cd30122111005e07a2a75b28b8f</sys_update_name>
+        <table>x_921453_test_document_approval_category</table>
+    </sys_workspace_declarative_action_exclusion>
+</record_update>

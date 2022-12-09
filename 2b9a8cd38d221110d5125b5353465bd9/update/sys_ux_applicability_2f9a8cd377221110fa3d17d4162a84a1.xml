@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_921453_test.Document Admin</api_name>
+        <description>Role for document approval admins</description>
+        <name>Document Admin</name>
+        <roles name="x_921453_test.admin">6f9a8cd3b3221110d00b48f51e04a0d8</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f9a8cd377221110fa3d17d4162a84a1</sys_id>
+        <sys_name>Document Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_applicability_2f9a8cd377221110fa3d17d4162a84a1</sys_update_name>
+    </sys_ux_applicability>
+</record_update>

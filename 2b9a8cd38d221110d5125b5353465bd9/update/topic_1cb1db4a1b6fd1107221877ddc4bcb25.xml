@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <description/>
+        <icon>50b1db4a1b6fd1107221877ddc4bcb28</icon>
+        <name>Printers</name>
+        <order>200</order>
+        <parent_topic display_value="Hardware">08b19b4a1b6fd1107221877ddc4bcbc3</parent_topic>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>1cb1db4a1b6fd1107221877ddc4bcb25</sys_id>
+        <sys_name>Printers</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>topic_1cb1db4a1b6fd1107221877ddc4bcb25</sys_update_name>
+        <taxonomy display_value="Clone Employee">aba19b4a1b6fd1107221877ddc4bcb45</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>IT / Hardware / Printers</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cb1db4a1b6fd1107221877ddc4bcb25"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9fb1b7</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>05264d1ca2e9e2a28103e5966a5c02e06c6ab1c6df61d3f0cae3e950299bfd39</hash>
+        <image_height>112</image_height>
+        <image_width>112</image_width>
+        <size_bytes>1081</size_bytes>
+        <size_compressed>1075</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>50b1db4a1b6fd1107221877ddc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-05 11:57:59</sys_updated_on>
+        <table_name>ZZ_YYtopic</table_name>
+        <table_sys_id>1cb1db4a1b6fd1107221877ddc4bcb25</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="50b1db4a1b6fd1107221877ddc4bcb28">50b1db4a1b6fd1107221877ddc4bcb28</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>98b1db4a1b6fd1107221877ddc4bcb28</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSBSDMwQYkjz344g2kOAs8IosZGMRUQZjRM0jlA1CQsTjI3Ylh3TmZl0AOS7qjryMDw8Z+7j+JrAwMzOc8XRxDKhjf3j3tHRIow/7h/VtVkRmuT9IWbbQ/4HL3mlKz2Dcldq7olmmCuTU5zppbS18tWs7ftOlsSyQnq+uEi6vYv7A/EY1dIjB5Enf13XP5lxzPyD3eeb24r86+4Etfx5kz3/+dy37WxyCIFbz8mNBZseePC8OWlYdtbuR62GaK19Q/UNPZwDUt4OHc9r8PO5lK4/UPCmUn9O+o0dxbzXuNi2mP15yJytl+JtlaE8TaGa36UJHelLkzKv4U2By4LlcawWIu9riNtVbumumPf7bys7Ywz+F8rysRsy1I7prY67YVe4WFH8zO0X6qKpSakWXTe+cO7wJ7aUlJ52p3/Uknl8++0nl/bd0Wdqkt2gXVe2wmvNdn2y3Q/bT5X27SI+MyMdnJh69ssN8gKeU0+4jBnv/my6dfkiuz4C6VYe5xiK7W5yqX893+bJp0xyRffXVdbqGI8vL6Z9tkvKdHhkd3amxgchZZcZ178kn1lzMfvn1Zu2PprBcvd/avMHA4Lvna6anP1HdpRUVcet1Hty3bfdwlSd/mvHPoVcUtqw0/VJx7fOZ9SMgURa1jWgFsVdcPCy9e/Dgj8+2ZO+vWr3bZyhV4bO/NjetXbmQLNAxr/HSg1f6LwLpJhusTjjfe9zuybNmskmguGWbZ9PNGj75qJlTJ+HE+k9ljw/Fkxd0VkzKu136+Gdy4rnW7AHN/Y+yKxxILoKjnrFPqRO3XyysO1u3Q28Z6TGK1w825E3I1rj9dx56lfSZ2afoaptT3AVFtaxZrZH/rabRMDF18MDuseNo+943p6suWCE+xPecke5wBitJzhJT129wc713bMEmCu+D6u8kzw5/Gbs+NtmObX36QJZnRa+mZtdN8XF+FBbhMzdVOZjxnn5z+3cV7cnji2pnnOycK57/4y3yjYbLEcUOH4zfrc122JUulLyyrLP8ms6+nvoXz9aftCz58cr1xpnH15D1vVmmdiVzBLHzLgOnPkqh7R46ImOXx/P/145B2WfiBpJ6+PkWdRJ+kJ8JaFy5VySory196vfPolqlOfl++9Vm/TP564vdCz91MtjXr+Tb86q151ZQVwfmkhfvhXpuVoT8C+X1vib743V8jmrTxVvjLw+sDkzfmJgbNvWny++SEzz7zjCvfLdCc4nnmjKwlE+9m+XCj+Us3X0i4Ib8hifds5Iv4/2Jr0msbTheKSanlLbUEpt1z+/RCynkex60w1LxqdvZPPNtpVjudRF/xV4oZAf5nBL5cm+RtmO9TGXGXRwkriFKrY7rgnqCQZ5edC8zpDJ6ufi7rnBKaALbp+9g5BAAA</data>
+        <length>1420</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="50b1db4a1b6fd1107221877ddc4bcb28">50b1db4a1b6fd1107221877ddc4bcb28</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>1cb1db4a1b6fd1107221877ddc4bcb28</sys_id>
+    </sys_attachment_doc>
+</record_update>

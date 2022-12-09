@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8caaccd31b2211107221877ddc4bcb47" label="Document Approver" max_length="40" name="x_921453_test_document_approver" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Approval Id" max_length="40" name="approval_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approver" mandatory="true" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approver Group" max_length="32" name="approver_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Document" mandatory="true" max_length="32" name="document" reference="x_921453_test_document_approval" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Returned" sequence="2" value="returned"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="No Longer Required" sequence="4" value="not_required"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="approver_group"/>
+        </index>
+        <index name="index3">
+            <element name="document"/>
+        </index>
+    </element>
+</database>

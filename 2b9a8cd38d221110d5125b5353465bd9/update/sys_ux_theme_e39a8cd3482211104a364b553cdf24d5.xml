@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Doc Approval Theme</name>
+        <parent display_value="Default">a309795273230010fd843c78caf6a724</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e39a8cd3482211104a364b553cdf24d5</sys_id>
+        <sys_name>Doc Approval Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_theme_e39a8cd3482211104a364b553cdf24d5</sys_update_name>
+        <theme>{&#13;
+    "--now-font-family": "Roboto",&#13;
+    "--mv9-kWzzvm--kvZptZ-ZrpAW1":"6px",&#13;
+    "--mv9-kWzzvm--9Apz8-1Jrjt":"1.5",&#13;
+    "--now-label-value-stacked--background-color": "#FFFFFF",&#13;
+    "--now-label-value-stacked--box-shadow": "0 2px 10px 0 rgba(0, 0, 0, .1)",&#13;
+    "--now-label-value-stacked--min-height": "200px",&#13;
+    "--now-label-value--padding-top": "20px",&#13;
+    "--now-template-card-assist--now-card--now-card-header-heading-label--height": "4.5em",&#13;
+    "--now-template-card-assist--now-card-header-heading-label--height": "5.5em",&#13;
+    "--now-template-card-assist--now-card--now-template-card-container--now-card-header--height": "6.5em",&#13;
+    "--now-template-card-assist--now-card--now-card-header--height": "7.5em",&#13;
+    "--now-record-common-attachment-card—-sn-attachments-width": "50%",&#13;
+&#13;
+    "--now-dropdown--secondary--border-color--opened": "122, 98, 1",&#13;
+    "--now-dropdown--secondary--border-color--opened_hover": "122, 98, 1",&#13;
+    "--now-dropdown--secondary--border-color--opened_active": "122, 98, 1",&#13;
+    "--now-dropdown--secondary--color--opened": "1,60,71",&#13;
+    "--now-dropdown--secondary--color--opened_hover": "1,89,107",&#13;
+    "--now-dropdown--secondary--color--opened_active": "1,60,71",&#13;
+    "--now-dropdown--secondary--background-color--opened": "255, 255, 255",&#13;
+    "--now-dropdown--secondary--background-color--opened_hover": "209,214,214",&#13;
+    "--now-dropdown--secondary--background-color--opened_active": "255, 255, 1",&#13;
+&#13;
+    "--now-button--line-height": "2rem",&#13;
+    "--now-button--primary--color": "var(--now-contact-btn-text-color)",&#13;
+    "--now-button--primary--color--hover": "var(--now-contact-btn-text-color)",&#13;
+    "--now-button--primary--background-color": "var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--background-color--hover": "var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--background-color--active": "var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--color--active": "var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--border-color": "var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--border-color--hover": "var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--border-color--active":"var(--now-contact-btn-color)",&#13;
+    "--now-button--primary--border-radius": "5px",&#13;
+    "--now-button--primary--text-transform" :"uppercase",&#13;
+&#13;
+    "--now-button--button--primary--font-size": "14px",&#13;
+    "--now-button--md--padding-block": "0.575rem", &#13;
+    "--now-button--md--padding-top": "10px",&#13;
+    "--now-button--md--font-size": "0.9rem",&#13;
+    "--now-button--md--line-height": "1.5",&#13;
+    "--now-button--border-radius": "6px",&#13;
+    "--now-button--border-width": "0",&#13;
+    "--now-button--height-scale": "1.25",&#13;
+    "--now-button--width-scale": "1.5",&#13;
+    "--now-button--text-transform": "uppercase",&#13;
+    "--now-button--secondary--color": "var(--now-color--primary-1)",&#13;
+    "--now-button--secondary--color--active": "var(--now-color--primary-3)",&#13;
+    "--now-button--secondary--color--hover": "var(--now-color--primary-2)",&#13;
+    "--now-button--secondary--background-color": "white",&#13;
+    "--now-button--secondary--border-color": "var(--now-color--primary-1)",&#13;
+    "--now-button--secondary--border-color--active": "var(--now-color--primary-3)",&#13;
+    "--now-button--secondary--border-color--hover": "var(--now-color--primary-2)",&#13;
+    "--now-button--secondary--border-width": "1px",&#13;
+    "--now-button--secondary--background-color--active": "var(--now-color--primary-0)",&#13;
+    "--now-button--secondary--background-color--hover": "var(--now-color--primary-0)",&#13;
+&#13;
+&#13;
+    "--now-card--font-style": "normal",&#13;
+    "--now-card--font-weight": "normal",&#13;
+    "--now-card--font-family": "Roboto",&#13;
+    "--now-card--text-transform": "capitalize",&#13;
+    "--now-card--border-width": "1px",&#13;
+    "--now-card--border-color": "209,214,214",&#13;
+    "--now-card--border-color--hover": "172,180,181",&#13;
+    "--now-card--border-color--active": "15,67,55",&#13;
+    "--now-card--border-color--selected": "30,133,109",&#13;
+    "--now-card_sidebar--primary_critical--background-color": "255,255,255",&#13;
+    "--now-button--secondary--text-transform": "uppercase",&#13;
+    "--now-button--secondary--border": "1px solid RGB(var(--mv9-kWzzvm--XZATrZO--krJUfZvWmp-JvjvZ,var(--now-color--primary-1,30,133,109)))",&#13;
+    "--now-button--button--text-transform": "uppercase",&#13;
+&#13;
+    "card--border-color":"209,214,214",&#13;
+    "--now-card--background-color": "white",&#13;
+    "$now-card--background": "var(p(card--border-color))",&#13;
+    "--now-card--border-radius": "6px",&#13;
+    "$now-card--border-radius": "var(p(--now-card--border-radius), $now-container--border-radius)",&#13;
+&#13;
+    "$now-card--border-color": "var(p(--now-card--border-color), $now-color_border--tertiary)",&#13;
+&#13;
+    "$now-button--text-transform": "var(p(--now-button--button--text-transform))",&#13;
+    "$now-dropdown-list-item--text-transform" :"var(p(--now-button--button--text-transform))",&#13;
+&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+    "--now-line-height-crop--after": "-0.275em",&#13;
+    "canvas-header-container--background-color": "0,59,49",&#13;
+    "--mv9-pA1XjrO-zOXt--Pvmz-PrTAjO":"Roboto",&#13;
+    "--now-button--background-color--disabled": "var(--now-color--neutral-5)",&#13;
+    "--now-breadcrumbs--text-transform":"capitalize",&#13;
+    "--now-doc-banner-bg-color" : "227, 244, 237",&#13;
+    "--now-doc-ws-container-background" : "126, 139, 141"&#13;
+&#13;
+}&#13;
+</theme>
+    </sys_ux_theme>
+</record_update>

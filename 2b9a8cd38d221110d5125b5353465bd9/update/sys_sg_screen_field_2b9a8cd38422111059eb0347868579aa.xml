@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>document.submitter</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>300</order>
+        <record_id_field/>
+        <screen display_value="Details">e39a8cd3a62211102a0ecea0aea012ad</screen>
+        <screen_data_item_table>x_921453_test_document_approver</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:20</sys_created_on>
+        <sys_id>2b9a8cd38422111059eb0347868579aa</sys_id>
+        <sys_name>document.submitter</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_screen_field_2b9a8cd38422111059eb0347868579aa</sys_update_name>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+</record_update>

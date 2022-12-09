@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>DELETE</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:56</sys_created_on>
+        <sys_id>af9a8cd363221110938567c2468f7e94</sys_id>
+        <sys_name>DELETE</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_form_action_af9a8cd363221110938567c2468f7e94</sys_update_name>
+        <table>x_921453_test_document_approval</table>
+        <ui_action display_value="DELETE">2f9a8cd368221110f269de2b388739a7</ui_action>
+    </sys_ux_form_action>
+</record_update>

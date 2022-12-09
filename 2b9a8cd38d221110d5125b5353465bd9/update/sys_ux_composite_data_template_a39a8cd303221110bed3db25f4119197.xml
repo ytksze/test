@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Document Approval Genius Result</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:20</sys_created_on>
+        <sys_id>a39a8cd303221110bed3db25f4119197</sys_id>
+        <sys_name>Document Approval Genius Result</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_a39a8cd303221110bed3db25f4119197</sys_update_name>
+        <template>{&#13;
+    "component": "sn-search-genius-user-card",&#13;
+    "staticValues": {&#13;
+		"highlightedHeaderBkgColor": {&#13;
+			"translatable": false,&#13;
+			"key": "moderate"&#13;
+		},&#13;
+		"imageType": {&#13;
+			"translatable": false,&#13;
+			"key": ""&#13;
+		},&#13;
+		"additionalInfoLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Document Type"&#13;
+		}&#13;
+	},&#13;
+    "mappings": {&#13;
+        "heading": "columns.status",&#13;
+        "identifier": "columns.number",&#13;
+        "primaryDescription": "columns.name",&#13;
+        "avatar": "columns.avatar",&#13;
+        "additionalInfoValueOne": "columns.appproval_category",&#13;
+        "additionalInfoLabelOne": "Document Type"&#13;
+    },&#13;
+    "actionMappings": {&#13;
+        "actions": ["view_doc"]&#13;
+    }&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

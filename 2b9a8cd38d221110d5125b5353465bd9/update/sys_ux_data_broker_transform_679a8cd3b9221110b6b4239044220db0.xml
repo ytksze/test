@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_921453_test.Heading</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Heading</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{      "name":"userSessionFirstName",&#13;
+      "label":"User Session",&#13;
+      "description":"User Session",&#13;
+      "readOnly":false,&#13;
+      "fieldType":"object",&#13;
+      "mandatory":true,&#13;
+      "defaultValue":{}&#13;
+   }]</props>
+        <required_translations>[{"message":"User Session","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	
+    return gs.getMessage("{0}'s Document Approvals",input.userSessionFirstName);
+	
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:58</sys_created_on>
+        <sys_id>679a8cd3b9221110b6b4239044220db0</sys_id>
+        <sys_name>Heading</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_679a8cd3b9221110b6b4239044220db0</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=679a8cd3b9221110b6b4239044220db0"/>
+</record_update>

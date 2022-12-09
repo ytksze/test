@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_921453_test.Document Approval internationalization support</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Document Approval internationalization support</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	
+	var titles = {
+		"need_attention" : gs.getMessage("Needs Attention"),
+		"document_approvals_this_year" : gs.getMessage("Document Approvals This Year"),
+		"approvals_by_category_this_quarter" : gs.getMessage("Approvals By Category This Quarter"),
+		"new_document_approvals" : gs.getMessage("New Document Approvals"),
+		"recently_approved_documents" : gs.getMessage("Recently Approved Documents"),
+		"active_approvals" : gs.getMessage("Active Approvals"),
+		"approvals_completed" : gs.getMessage("Approvals Completed"),
+		"document_status" : gs.getMessage("Document Status"),
+		"document_approval_categories" : gs.getMessage("Document Approval Categories"),
+		"document_approval_title" : gs.getMessage("Document Approval"),
+		"welcome" : gs.getMessage("Welcome"),
+		"document_approval_subtext" : gs.getMessage("Keep track of your document approvals with automated workflows."),
+		"document_approval_login" : gs.getMessage("Log in to continue"),
+		"document_approval_landing_subtext" : gs.getMessage("Submit documents for approval and manage previous submissions"),
+		"document_approval_form_title" : gs.getMessage("Upload a Document"),
+		"document_approval_form_name" : gs.getMessage("Document Name (max 40 characters)"),
+		"document_approval_form_category" : gs.getMessage("Document Category"),
+		"document_approval_form_description" : gs.getMessage("Briefly describe the document requiring approval (optional, max 4000 characters)"),
+		"reference_number" : gs.getMessage("Reference no: "),
+		"your_all_documents_title" : gs.getMessage("Your All Documents"),
+		"your_returned_documents_title" : gs.getMessage("Your Returned Documents"),
+		"home" : gs.getMessage("Home"),
+		"all_documents_title" : gs.getMessage("All Documents"),
+		"all_returned_documents_title" : gs.getMessage("All Returned Documents"),
+		"document_view_number" : gs.getMessage("Number"),
+		"document_view_document_type" : gs.getMessage("Document Type"),
+		"document_view_status" : gs.getMessage("Status"),
+		"document_view_created" : gs.getMessage("Created"),
+		"404_message" : gs.getMessage("This page you were trying to reach doesn't seem to exist.<br> Lets get you back on the track.")
+	};
+	
+	return titles;
+	
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:07</sys_created_on>
+        <sys_id>eb9a8cd3fa221110e47bed25fb2e73b0</sys_id>
+        <sys_name>Document Approval internationalization support</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_eb9a8cd3fa221110e47bed25fb2e73b0</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb9a8cd3fa221110e47bed25fb2e73b0"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:59</sys_created_on>
+        <sys_id>ef9a8cd33b221110b1a757dcb78c27a9</sys_id>
+        <sys_name/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_ef9a8cd33b221110b1a757dcb78c27a9</sys_update_name>
+        <target>viewgroup_01</target>
+        <ui_rule display_value="Submitted state rules for document approvals - List View Config">239a8cd378221110e092801a55529daa</ui_rule>
+        <value>{"BackgroundColor":"#C3DDF0"}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

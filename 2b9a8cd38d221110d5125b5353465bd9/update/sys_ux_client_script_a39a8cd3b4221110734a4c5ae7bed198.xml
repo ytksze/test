@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>58d17acf0b531010a8b1c96237673a68</includes>
+        <macroponent display_value="Record">a39a8cd3062211108eb920a846ff43a2</macroponent>
+        <name>previewRecordRouteMapping</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+      
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'details';
+    var targetRoute = 'current';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+    
+    const routeMap = api.data.dynamic_routing_record.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    const {
+        emit
+    } = api;
+    if (event.payload.table == "sys_hub_flow") {
+        if(api.state.flowRedirection){
+                emit('NAV_ITEM_SELECTED', {
+                    external: {
+                    url: '/$flow-designer.do?sysparm_nostack=true#/flow-designer/'+event.payload.sys_id+"?sys_id="+event.payload.sys_id
+                }
+            });
+        }
+        api.setState('flowRedirection', !api.state.flowRedirection);
+        
+    } else {
+        emit('NAV_ITEM_SELECTED', payload);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:08</sys_created_on>
+        <sys_id>a39a8cd3b4221110734a4c5ae7bed198</sys_id>
+        <sys_name>previewRecordRouteMapping</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_client_script_a39a8cd3b4221110734a4c5ae7bed198</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

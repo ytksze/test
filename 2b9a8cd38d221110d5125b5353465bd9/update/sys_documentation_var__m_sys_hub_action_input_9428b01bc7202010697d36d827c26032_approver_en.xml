@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="approver" label="Approver" language="en" table="var__m_sys_hub_action_input_9428b01bc7202010697d36d827c26032">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>approver</element>
+            <help/>
+            <hint/>
+            <label>Approver</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_9428b01bc7202010697d36d827c26032</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_name>Approver</sys_name>
+            <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9428b01bc7202010697d36d827c26032_approver_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

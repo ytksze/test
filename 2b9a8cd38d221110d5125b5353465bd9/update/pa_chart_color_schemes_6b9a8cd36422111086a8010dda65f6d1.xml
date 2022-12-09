@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_chart_color_schemes">
+    <pa_chart_color_schemes action="INSERT_OR_UPDATE">
+        <color_1 display_value="#003B31">6f9a8cd3a12211105e64c9b9ffb418d1</color_1>
+        <color_10/>
+        <color_11/>
+        <color_12/>
+        <color_13/>
+        <color_14/>
+        <color_15/>
+        <color_16/>
+        <color_17/>
+        <color_18/>
+        <color_19/>
+        <color_2 display_value="#007A62">2b9a8cd3d4221110c0bb238b3d8f46d1</color_2>
+        <color_20/>
+        <color_21/>
+        <color_22/>
+        <color_23/>
+        <color_24/>
+        <color_25/>
+        <color_26/>
+        <color_27/>
+        <color_28/>
+        <color_29/>
+        <color_3 display_value="#81B5A1">af9a8cd33a22111069c9f4188af3cbd1</color_3>
+        <color_30/>
+        <color_31/>
+        <color_32/>
+        <color_4 display_value="#E3F4ED">ab9a8cd3672211100b782e7d3016f0d1</color_4>
+        <color_5/>
+        <color_6/>
+        <color_7/>
+        <color_8/>
+        <color_9/>
+        <description>Document Approval Chart Color Scheme</description>
+        <name>Document Approval Chart Color Scheme</name>
+        <sys_class_name>pa_chart_color_schemes</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b9a8cd36422111086a8010dda65f6d1</sys_id>
+        <sys_name>Document Approval Chart Color Scheme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>pa_chart_color_schemes_6b9a8cd36422111086a8010dda65f6d1</sys_update_name>
+    </pa_chart_color_schemes>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b9a8cd36422111086a8010dda65f6d1"/>
+</record_update>

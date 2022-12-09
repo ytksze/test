@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search results">2f9a8cd3e222111042c690eb75ac289b</macroponent>
+        <name>Handle Facet Click</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    imports,
+    helpers
+}) {
+
+    const props = api.context.props;
+    helpers.navigate.to('search', {
+        searchContextConfigId: props.searchContextConfigId
+    }, {
+        searchFilters: props.searchFilters,
+        facetFilters: event.payload.selectedFilters,
+        disableSpellCheck: props.disableSpellCheck,
+        searchTerm: props.searchTerm
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:01</sys_created_on>
+        <sys_id>af9a8cd33f221110b90ca0d62cdaec9a</sys_id>
+        <sys_name>Handle Facet Click</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_client_script_af9a8cd33f221110b90ca0d62cdaec9a</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

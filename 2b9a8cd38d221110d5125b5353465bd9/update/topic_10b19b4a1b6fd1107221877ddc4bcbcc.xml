@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <description>gsdafgsdfg</description>
+        <icon>94b19b4a1b6fd1107221877ddc4bcbce</icon>
+        <name>Computers</name>
+        <order>100</order>
+        <parent_topic display_value="Hardware">08b19b4a1b6fd1107221877ddc4bcbc3</parent_topic>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>10b19b4a1b6fd1107221877ddc4bcbcc</sys_id>
+        <sys_name>Computers</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>topic_10b19b4a1b6fd1107221877ddc4bcbcc</sys_update_name>
+        <taxonomy display_value="Clone Employee">aba19b4a1b6fd1107221877ddc4bcb45</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor>fb1166d64fff0200086eeed18110c7ab</topic_contributor>
+        <topic_manager>cb8e06e9d7103100f2d224837e610339</topic_manager>
+        <topic_path>IT / Hardware / Computers</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=10b19b4a1b6fd1107221877ddc4bcbcc"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#cd83bd</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>268a170eec8a27eb727e3168a8e7a1c3c8e63db8faad61c2ed34c4f81c357783</hash>
+        <image_height>112</image_height>
+        <image_width>112</image_width>
+        <size_bytes>1858</size_bytes>
+        <size_compressed>1881</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>94b19b4a1b6fd1107221877ddc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-05 11:57:59</sys_updated_on>
+        <table_name>ZZ_YYtopic</table_name>
+        <table_sys_id>10b19b4a1b6fd1107221877ddc4bcbcc</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="94b19b4a1b6fd1107221877ddc4bcbce">94b19b4a1b6fd1107221877ddc4bcbce</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>dcb19b4a1b6fd1107221877ddc4bcbce</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2496</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="94b19b4a1b6fd1107221877ddc4bcbce">94b19b4a1b6fd1107221877ddc4bcbce</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:59</sys_created_on>
+        <sys_id>50b19b4a1b6fd1107221877ddc4bcbcf</sys_id>
+    </sys_attachment_doc>
+</record_update>

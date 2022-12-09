@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_va_content">
+    <sys_notification_va_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <fields>priority</fields>
+        <image_alt_text/>
+        <image_source>upload_image</image_source>
+        <image_url/>
+        <is_default>false</is_default>
+        <message><![CDATA[koreha
+tadano
+tesuto
+desuyo
+]]></message>
+        <message_heading><![CDATA[A notification has arrived. You can continue the conversation after viewing the notification.]]></message_heading>
+        <name>test provider common content</name>
+        <notification display_value="test provider notification">1206bb0b1b9b91107221877ddc4bcb0f</notification>
+        <notification_image/>
+        <script><![CDATA[(function getNotificationHeadingAndMessage(
+    /*GlideRecord of record changed to cause notification*/ target,
+    /*GlideRecord of event triggered to cause notification*/ event,
+    /*Recipient Table Name*/ recipientTable,
+    /*Recipient Sys Id*/ recipientSysId) {
+  
+  // var arrayEventParam = event.parm1.split(',');
+  // var jsonEventParam = JSON.parse(event.parm2);
+  //
+  // var recipient = new GlideRecord(recipientTable);
+  // recipient.get(recipientSysId);
+  // var messageContent = 'Dear ' + recipient.first_name + ', \r\n';
+  // messageContent += 'Use markdown in message content for ***formatted message***.';
+  //
+  // Return object using the below format (messageHeading is optional and messageContent is required)
+  
+  return {messageHeading:'formattedMessageHeading', messageContent:'formattedMessageContent'};
+  
+})(target, event, recipientTable, recipientSysId);]]></script>
+        <send_link>true</send_link>
+        <sys_class_name>sys_notification_va_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-26 07:01:48</sys_created_on>
+        <sys_id>86d63b4b1b9b91107221877ddc4bcbc0</sys_id>
+        <sys_name>test provider common content</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_notification_va_content_86d63b4b1b9b91107221877ddc4bcbc0</sys_update_name>
+        <type>record_card</type>
+    </sys_notification_va_content>
+</record_update>

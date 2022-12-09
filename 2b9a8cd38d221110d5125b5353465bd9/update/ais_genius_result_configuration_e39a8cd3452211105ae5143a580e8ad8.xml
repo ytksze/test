@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_genius_result_configuration">
+    <ais_genius_result_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <handler_type>search</handler_type>
+        <name>Document Approval Genius Result</name>
+        <return_fields>number,name,approval_category,submitter, status, description,sys_id</return_fields>
+        <script><![CDATA[function process(context) {
+	var answer = new sn_ais.GeniusResultAnswer();
+	answer.setTable('x_921453_test_document_approval');
+	answer.setEncodedQuery('active=true');
+	answer.addSearchPhrases([context.getOriginalSearchPhrase()]);
+	answer.setSearchLimit(1);
+	return answer;
+}]]></script>
+        <sys_class_name>ais_genius_result_configuration</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:57</sys_created_on>
+        <sys_id>e39a8cd3452211105ae5143a580e8ad8</sys_id>
+        <sys_name>Document Approval Genius Result</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>ais_genius_result_configuration_e39a8cd3452211105ae5143a580e8ad8</sys_update_name>
+        <term/>
+        <trigger_condition>always</trigger_condition>
+    </ais_genius_result_configuration>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_921453_test.Document-approval-evam-transform-one-row</api_name>
+        <description>Document-approval-evam-transform</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Document-approval-evam-transform-one-row</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "evamDataDocApproval",&#13;
+        "label": "Evam Input",&#13;
+        "description": "",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "object",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations>[{"message":"Evam Input","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	input.evamDataDocApproval.items = input.evamDataDocApproval.items.map(function(item) {																	   
+		if(item.propValues.highlightedHeaderLabel == 'Submitted'){
+			item.propValues.highlightedHeaderBkgColor ='info';
+		} else if (item.propValues.highlightedHeaderLabel == 'Rejected'){
+			item.propValues.highlightedHeaderBkgColor = 'critical';
+		} else if (item.propValues.highlightedHeaderLabel == 'Approved'){
+			item.propValues.highlightedHeaderBkgColor = 'positive';
+		} else if (item.propValues.highlightedHeaderLabel == 'Returned'){
+			item.propValues.highlightedHeaderBkgColor = 'high';
+		}
+		
+		return item;
+	});
+	
+	return input.evamDataDocApproval;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:20</sys_created_on>
+        <sys_id>239a8cd32b221110e7000c7fe08e87b0</sys_id>
+        <sys_name>Document-approval-evam-transform-one-row</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_239a8cd32b221110e7000c7fe08e87b0</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=239a8cd32b221110e7000c7fe08e87b0"/>
+</record_update>

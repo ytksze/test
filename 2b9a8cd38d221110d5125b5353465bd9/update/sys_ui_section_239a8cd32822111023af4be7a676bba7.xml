@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="239a8cd32822111023af4be7a676bba7" sys_domain="global" table="x_921453_test_document_approval_category" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>6b9a8cd3b4221110cbc59ea8beed87a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>eb9a8cd345221110057f72e44654eca6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>ab9a8cd3fc2211106728853a91de85a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>use_flow</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>6f9a8cd39e221110f8e355509b4068a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>ef9a8cd34a22111015f73f849d8e87a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>5</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>a79a8cd39b221110f39685b0d2013ba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_id>e39a8cd3a422111079e4c92af9cb18a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_921453_test_document_approval_category" sys_domain="global" view="11739aa0f98211108c8bd16244dfe72b">239a8cd32822111023af4be7a676bba7</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-10-20 01:38:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_921453_test_document_approval_category</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>239a8cd32822111023af4be7a676bba7</sys_id>
+            <sys_name>x_921453_test_document_approval_category</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+            <sys_update_name>sys_ui_section_239a8cd32822111023af4be7a676bba7</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">11739aa0f98211108c8bd16244dfe72b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

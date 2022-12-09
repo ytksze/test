@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>header_logo</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a39a8cd3e62211102a48638dd62f3891</sys_id>
+        <sys_name>header_logo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_a39a8cd3e62211102a48638dd62f3891</sys_update_name>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>now-logo-white.svg</file_name>
+        <hash>4154310b4c5bdb83623233669adb4537c8f9b2ff596125edb195256baec5c6c8</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>4351</size_bytes>
+        <size_compressed>1319</size_compressed>
+        <state>pending</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:21</sys_created_on>
+        <sys_id>af9a8cd38e221110c9ad304c5a26ce90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-10-20 01:38:21</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>a39a8cd3e62211102a48638dd62f3891</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="now-logo-white.svg" sys_id="af9a8cd38e221110c9ad304c5a26ce90">af9a8cd38e221110c9ad304c5a26ce90</sys_attachment>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:22</sys_created_on>
+        <sys_id>679a8cd3fb221110166c9a58e2ea2591</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>nVhLc+o2FN7fX6FxNjczIPR+ZIA7U6ZZpbt2012mOOAJwQw4Ie2v7zmSjOVACIFs5M9H5/0dyRn/en9Zkbdyu6vq9aTglBWkXP9Tz6v1YlL89ef90BW/pj/Gu7cF2VfzZjkpjN28F2RZVotlMykEw6e3qtz/Vr9PCkYYMZYIUJMp5QUBM+vdpFg2zeZuNNrv93Qvab1djARjbATqk8jd+6paP58S5N77UXhbTH8Q+I2bqlmV03W9H67qRT3cL6umHI8iGiXm5dMuLsPjpl79u6jXpJpPis1jsxyCY5u6Wje74DnlXhNuKTdOwu8YgKU3Rjt8lz0U0/EoqT5nTGbGqGHOamO8SVYEo85ZxSF5RwB3VMYfyTd28IUO6NwBrYXnxgR7WisWIxSOWq5PQXns2eZvZ8H2smCZMckJCyajTgGR87OwQKMC/ew0JOzIjfGo64LxIjjSb5mC7Jpt/Vwivj48DVO7Q4s8VatV+xLXw+3rCqTLt3Jdz+dFFm1Uf48yfDhbVZtNOS9Is31c757q7cukCMvVY1P+ZJSF3wCDkE4zdptpCtpeHnfPQSEuhqJ1JDrdlw3yr7uSBILcLbfl06S4ST0OGYFXH5SPUOkHbJEzA3YtPrzHNwQk/mCDrB0e2CDvlwdFlY3rT3FOfcLJTFPrY4VB3Fmbqm2pkr6FuVep3zyVnfIOnnFOrbG6B3JJ49qCQQFNHAxyTaUbQLd4bTVsNFQLFYQUldpHrzrSDwzl/Bj1lHkHHfiQYXlOuKCan4WBVjLpnWWwpYyb5KmgXOieA5wqF5OiIZvRb9iOiQNJRZ1JmIfQ43AAVDMJrjoQOjzMDPUsbInPmoq2ClAQ7UPaiKIG7Rtto9aHAPRrnz39XWT937brzf3v+NejDnDpv3JbFwSbcFK8blc/b2KT3wb+Qp9lrMr7MKeY+oJihwF5McfUlRyTV3FMnuUYFNUqaLEBNKwyDBuAzOyhaXJYwxhsUYkECAXtMEZhk8ejZJbBlmo4SkJfZWqhEZyM1T54kGEzMACb+iC44ng4q3KlGZp7kMOtswelWVCn4sekOBY3J6Y75wyGJXTkN+JGqvZoMzqSCWlgmY9nBvPtHGIQhI5+waxyMBHQKSFDCISDp+qQbc9kOI4lDqyEQuJslJ0Bk3g7bRxV2gVhyLeI5EFUCx3iMBQUiMgkrtvS6kRehBnHvMCUUa1O2JNMdZnpMBwhKqagJwojUAZno9JoC4Jh7qN9rItFY9FTmaoAc8JLFMWYYgkx6raCsIRDNyrwFO4l0RZmK3rQ3WNCZqH0uodBZ1jEZhkIpQoYGJcW/YQyidhVIfoTLZBNHtVNnvC7bPKo70we+8XkkVDM753u5srJo6+aPPrk5MmuajHKq0a4ue1ueFArL7jo3R4tcsN+eqHMrwwab8JxxOSwo94FpQAyFVtSUOOBtT05PNqtOlg4XGihm4I5m2sQijIr2JFwuP2me3kG42hgivduwOFGrkw/XA5HpoxOOMrSkDp9V+5121E1OLuoHG3qjQQ26kQiL4MDOWYtMAoR5rhOTD/GHAxLGFrEQH5j8Kexw15BmfExt6ex5MvpDOT3Z/EFx8DN9nSHcXMRydyVJLNXkcxeRDIurmKZy1kGiTYwVaGBkVhwl3Si/Vzsfz6dh9uvKjxJdP9DK4PAWuxnPB+9UIkQ0BQiXho5HHmuVZ6hzNtop6fhgJ75piOffSnCeDmFn6dXWIzxfw7T/wEbyu+k/xAAAA==</data>
+        <length>1748</length>
+        <position>1</position>
+        <sys_attachment display_value="now-logo-white.svg" sys_id="af9a8cd38e221110c9ad304c5a26ce90">af9a8cd38e221110c9ad304c5a26ce90</sys_attachment>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:22</sys_created_on>
+        <sys_id>639a8cd38b2211103f96d52ba9879191</sys_id>
+    </sys_attachment_doc>
+</record_update>

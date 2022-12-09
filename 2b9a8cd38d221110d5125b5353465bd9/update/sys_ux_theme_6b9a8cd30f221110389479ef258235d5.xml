@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Document Approval Workspace Theme</name>
+        <parent display_value="Default">a309795273230010fd843c78caf6a724</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b9a8cd30f221110389479ef258235d5</sys_id>
+        <sys_name>Document Approval Workspace Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_theme_6b9a8cd30f221110389479ef258235d5</sys_update_name>
+        <theme>{&#13;
+    "--now-font-family": "'Roboto', serif",    &#13;
+    "--now-button--button--primary--font-size": "14px",&#13;
+	"--now-button--md--padding-block": "0.575rem",&#13;
+	"--now-button--md--font-size": "0.9rem",&#13;
+	"--now-button--md--line-height": "1.5",&#13;
+	"--now-button--border-radius": "6px",&#13;
+	"--now-button--border-width": "0",&#13;
+	"--now-button--height-scale": "1.25",&#13;
+	"--now-button--width-scale": "1.5",&#13;
+	"--now-button--text-transform": "uppercase",&#13;
+	"--now-button--secondary--color": "var(--now-color--primary-1)",&#13;
+	"--now-button--secondary--color--active": "var(--now-color--primary-3)",&#13;
+	"--now-button--secondary--color--hover": "var(--now-color--primary-2)",&#13;
+	"--now-button--secondary--background-color": "white",&#13;
+	"--now-button--secondary--border-color": "var(--now-color--primary-1)",&#13;
+	"--now-button--secondary--border-color--active": "var(--now-color--primary-3)",&#13;
+	"--now-button--secondary--border-color--hover": "var(--now-color--primary-2)",&#13;
+	"--now-button--secondary--border-width": "1px",&#13;
+	"--now-button--secondary--background-color--active": "var(--now-color--primary-0)",&#13;
+	"--now-button--secondary--background-color--hover": "var(--now-color--primary-0)",&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+	"--now-line-height-crop--after": "-0.275em"&#13;
+&#13;
+   &#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Create New Doc Category">279a8cd3da221110bb19d6d9f8971ccf</action_payload_definition>
+        <label>Create New Doc Category List</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <payload_map>params@query={{query}}^parent_table={{parentTable}}^additional_data@query={{query}}^fields@table={{table}}^route=record^fields@sysId=-1^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:12</sys_created_on>
+        <sys_id>eb9a8cd3f0221110e797af9f62bcc0ce</sys_id>
+        <sys_name>Create New Doc Category List</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_eb9a8cd3f0221110e797af9f62bcc0ce</sys_update_name>
+    </sys_declarative_action_payload_mapping>
+</record_update>

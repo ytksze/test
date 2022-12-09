@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Infinity">fd90d92a1b1711107221877ddc4bcbeb</sc_cat_item>
+        <sc_category display_value="Tablets">b06546f23731300054b6a3549dbe5dd8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 05:35:52</sys_created_on>
+        <sys_id>67b0516a1b1711107221877ddc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tablets.Infinity</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sc_cat_item_category_67b0516a1b1711107221877ddc4bcbc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-24 05:35:52</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="test">2b9a8cd38d221110d5125b5353465bd9</application>
+        <file_path/>
+        <instance_id>76d4ecb5dbd4cc5007072f17d4961927</instance_id>
+        <instance_name>dev94282</instance_name>
+        <name>sc_cat_item_category_67b0516a1b1711107221877ddc4bcbc8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Infinity">fd90d92a1b1711107221877ddc4bcbeb</sc_cat_item><sc_category display_value="Tablets">b06546f23731300054b6a3549dbe5dd8</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-24 05:35:52</sys_created_on><sys_id>67b0516a1b1711107221877ddc4bcbc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tablets.Infinity</sys_name><sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package><sys_policy/><sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope><sys_update_name>sc_cat_item_category_67b0516a1b1711107221877ddc4bcbc8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-24 05:35:52</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2080438700</payload_hash>
+        <record_name>Tablets.Infinity</record_name>
+        <reverted_from/>
+        <source>bbbac4171b2211107221877ddc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 05:35:52</sys_created_on>
+        <sys_id>6fb0516a1b1711107221877ddc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a822a0250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-24 05:35:52</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e3b0516a7f1711103e37244107d94bcb</update_guid>
+        <update_guid_history>e3b0516a7f1711103e37244107d94bcb:2080438700</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tablets.Infinity">9ac0916a1b1711107221877ddc4bcbb0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 05:36:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>1abb8a655599492887d32ba2200952f9</sys_id>
+        <sys_metadata>67b0516a1b1711107221877ddc4bcbc8</sys_metadata>
+        <sys_name>Tablets.Infinity</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_scope_delete display_value="">4cb1c96624074476b6927644a3e26509</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_67b0516a1b1711107221877ddc4bcbc8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_67b0516a1b1711107221877ddc4bcbc8">6fb0516a1b1711107221877ddc4bcbcb</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

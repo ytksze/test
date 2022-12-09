@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_921453_test.submitter" name="x_921453_test.submitter">2f9a8cd331221110323bf64837e8efd8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:55</sys_created_on>
+        <sys_id>af9a8cd3162211105bb91d0da51662a2</sys_id>
+        <sys_name>canvas_user.</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_user_role_contains_af9a8cd3162211105bb91d0da51662a2</sys_update_name>
+    </sys_user_role_contains>
+</record_update>

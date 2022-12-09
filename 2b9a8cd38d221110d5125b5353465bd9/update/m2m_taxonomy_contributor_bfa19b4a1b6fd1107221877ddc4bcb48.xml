@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_taxonomy_contributor">
+    <m2m_taxonomy_contributor action="INSERT_OR_UPDATE">
+        <contributors display_value="All content taxonomy contributors">58473babc3453010069aec4b7d40dd50</contributors>
+        <sys_class_name>m2m_taxonomy_contributor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:57</sys_created_on>
+        <sys_id>bfa19b4a1b6fd1107221877ddc4bcb48</sys_id>
+        <sys_name/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>m2m_taxonomy_contributor_bfa19b4a1b6fd1107221877ddc4bcb48</sys_update_name>
+        <taxonomy display_value="Clone Employee">aba19b4a1b6fd1107221877ddc4bcb45</taxonomy>
+    </m2m_taxonomy_contributor>
+</record_update>

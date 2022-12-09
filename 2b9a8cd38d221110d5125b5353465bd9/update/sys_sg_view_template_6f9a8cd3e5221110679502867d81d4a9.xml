@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Document Approval View Template</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:18</sys_created_on>
+        <sys_id>6f9a8cd3e5221110679502867d81d4a9</sys_id>
+        <sys_name>Document Approval View Template</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_view_template_6f9a8cd3e5221110679502867d81d4a9</sys_update_name>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Margin":{"Top":3,"Bottom":3},"CornerRadius":2,"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":10},"MaxLines":1,"textStyle":"custom","CellId":"text_07","Id":"text_07","Margin":{"Top":3,"Left":8,"Bottom":3},"TextAlignment":"Left"},{"Type":"Text","TextColor":"#161B1C","Font":{"Weight":"regular","Size":12},"MaxLines":1,"textStyle":"custom","CellId":"text_01","Id":"text_01","Margin":{"Top":3,"Right":8,"Left":4,"Bottom":3},"TextAlignment":"Left"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_02","Margin":{"Bottom":5,"Top":5},"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":16},"MaxLines":2,"textStyle":"custom","CellId":"text_06","Id":"text_06"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_03","Margin":{"Bottom":5},"Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_04","Margin":{"Right":5},"Children":[{"Type":"Text","TextColor":"#7D8A8C","Font":{"Weight":"regular","Size":13},"MaxLines":1,"textStyle":"fieldLabel","CellId":"text_02","Id":"text_02"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_05","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"textStyle":"fieldValue","CellId":"text_08","Id":"text_08","Margin":{}}]}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_06","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_07","Margin":{"Right":5},"Children":[{"Type":"Text","TextColor":"#7D8A8C","Font":{"Weight":"regular","Size":13},"MaxLines":1,"textStyle":"fieldLabel","CellId":"text_04","Id":"text_04"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_08","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"textStyle":"fieldValue","CellId":"text_05","Id":"text_05"}]}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f9a8cd3e5221110679502867d81d4a9"/>
+</record_update>

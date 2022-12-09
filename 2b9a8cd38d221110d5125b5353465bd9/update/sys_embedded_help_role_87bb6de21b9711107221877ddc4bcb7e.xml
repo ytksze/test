@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_921453_test.task_test_user" name="x_921453_test.task_test_user">4fbb6da61b5711107221877ddc4bcbaf</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 07:33:48</sys_created_on>
+        <sys_id>87bb6de21b9711107221877ddc4bcb7e</sys_id>
+        <sys_name>4fbb6da61b5711107221877ddc4bcbaf</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_embedded_help_role_87bb6de21b9711107221877ddc4bcb7e</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

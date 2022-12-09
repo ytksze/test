@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_921453_test_document_approval_notification</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var eventStr = event.parm2;
+	var eventObj = JSON.parse(eventStr);
+	
+	if(eventObj['status'] == 'submitted')
+		email.setSubject('Awaiting Review ' + eventObj['doc_name']);
+	else
+		email.setSubject(eventObj['doc_name'] + ' ' + eventObj['status']);
+	
+	template.print('<div class="container rounded-lg">');
+	template.print('<div class="card text-center">');
+	if(eventObj['company'])
+	template.print('<div class="card-header">'+eventObj['company']+'</div>');
+	if(!eventObj['company'])
+	template.print('<div class="card-header"></div>');
+	template.print('<div class="card-body">');
+	if(eventObj['status'] == 'submitted' || eventObj['status'] == 'approved')
+		template.print('<div class="card-image"><img class="doc-status" src="x_921453_test.doc-approval-green-check-mark.png" /></div>');
+	else if(eventObj['status'] == 'returned')
+		template.print('<div class="card-image"><img class="doc-status" src="x_921453_test.doc-approval-yellow-exclamation-mark.png" /></div>');
+	else
+		template.print('<div class="card-image"><img class="doc-status" src="x_921453_test.doc-approval-red-exclamation-mark.png" /></div>');
+		
+	
+	//Header
+	if(eventObj['status'] == 'submitted')
+		template.print('<p class="document-header">You have a new document to review</p>');
+	else
+		template.print('<p class="document-header">Your document has been '+ eventObj['status'] + '</p>');
+	
+	
+	template.print('<p class="document-content-text">');
+	
+	//Body Content
+	if(eventObj['status'] == 'submitted'){
+		template.print('<b>Document Name</b> <br/>');
+		template.print(eventObj['doc_name'] + '<br/>');
+		template.print('<b>Document Owner</b> <br/>');
+		template.print(eventObj['doc_owner']);
+	}
+	else if(eventObj['status'] == 'approved'){
+		template.print(eventObj['approver'] + ' has approved your document, <br/>');
+		template.print(eventObj['doc_name']);
+	}
+	else{
+		template.print('Reason for rejection: <br/>');
+		template.print('<p style="color:rgb(112, 112, 112)">' + eventObj['reason'] + '</p>');
+	}
+	
+	template.print('</p>');
+	template.print('<p class="document-content-text"><br /></p>');
+	var currentSys = '/x/921453/x_921453_test-doc-approval/portal/doc_view/'+eventObj["document_id"];
+	var currentSysId = '/x/921453/x_921453_test-doc-approval/workspace/details/x_921453_test_document_approver/'+eventObj["approver_id"];
+
+
+	if(eventObj['status'] == 'submitted'){
+	template.print('<div class="btn-primary"><a style="color:#FFFFFF" href="' + currentSysId + '"><br/>VIEW SUBMISSION</a></div>');
+	}
+	else{
+	template.print('<div class="btn-primary"><a style="color:#FFFFFF" href="' + currentSys + '"><br/>VIEW SUBMISSION</a></div>');
+	}
+	template.print('<div class="card-image"><img class="nopadding full" src="x_921453_test.doc-approval-email.png" /></div>');
+	template.print('<div><br /></div>');
+	template.print('</div>');
+	template.print('</div>');
+	template.print('<div class="document-footer">');
+	template.print('<div class="document-footer-text">This email was sent to you by your company\'s task management system.');
+	template.print('<p>&copy; ' + eventObj['company']+' | All Rights Reserved</p>');
+	template.print('</div>');
+	template.print('</div>');
+	template.print('</div>');
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:19</sys_created_on>
+        <sys_id>2f9a8cd3562211100767cf30868588b2</sys_id>
+        <sys_name>x_921453_test_document_approval_notification</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_script_email_2f9a8cd3562211100767cf30868588b2</sys_update_name>
+    </sys_script_email>
+</record_update>

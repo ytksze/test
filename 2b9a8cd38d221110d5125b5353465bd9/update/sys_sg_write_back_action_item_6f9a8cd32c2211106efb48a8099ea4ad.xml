@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    var recordId = input.sys_id;
+
+    var grDocApproval = new GlideRecord('x_921453_test_document_approver');
+    if (grDocApproval.get(recordId)) {
+        grDocApproval.comments = input.comments;
+        grDocApproval.state = "approved";
+        grDocApproval.update();
+
+        gs.addInfoMessage(gs.getMessage("{0} approved.", grDocApproval.document.name));
+    }
+
+})(input);]]></execution_script>
+        <name>wb_approve_document</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:09</sys_created_on>
+        <sys_id>6f9a8cd32c2211106efb48a8099ea4ad</sys_id>
+        <sys_name>wb_approve_document</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_6f9a8cd32c2211106efb48a8099ea4ad</sys_update_name>
+        <table>x_921453_test_document_approver</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f9a8cd32c2211106efb48a8099ea4ad"/>
+</record_update>

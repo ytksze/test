@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>true</click_in_mode>
+        <context_config_id display_value="">0675b608773020109837b73aba106111</context_config_id>
+        <limit>5</limit>
+        <order>100</order>
+        <section_header>Recent Searches</section_header>
+        <suggestion_type>Recent Search Reader Group for Document Approval Search Config</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:09</sys_created_on>
+        <sys_id>eb9a8cd35a22111078b845d7a29b09d2</sys_id>
+        <sys_name>Recent Search Reader Group for Document Approval Search Config</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_eb9a8cd35a22111078b845d7a29b09d2</sys_update_name>
+    </sys_suggestion_reader_group>
+</record_update>

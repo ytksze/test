@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle">
+    <sys_ux_composite_data_template_predicate_bundle action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>document-approval-view-config-bundle</name>
+        <sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:58</sys_created_on>
+        <sys_id>e79a8cd36522111007db6b2ad68aca97</sys_id>
+        <sys_name>document-approval-view-config-bundle</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_e79a8cd36522111007db6b2ad68aca97</sys_update_name>
+    </sys_ux_composite_data_template_predicate_bundle>
+</record_update>

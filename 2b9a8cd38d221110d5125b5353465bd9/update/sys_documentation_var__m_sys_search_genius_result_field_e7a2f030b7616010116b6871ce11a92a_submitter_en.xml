@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="submitter" label="submitter" language="en" table="var__m_sys_search_genius_result_field_e7a2f030b7616010116b6871ce11a92a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>submitter</element>
+            <help/>
+            <hint/>
+            <label>submitter</label>
+            <language>en</language>
+            <name>var__m_sys_search_genius_result_field_e7a2f030b7616010116b6871ce11a92a</name>
+            <plural>submitter</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-10-20 01:38:08</sys_created_on>
+            <sys_name>submitter</sys_name>
+            <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_search_genius_result_field_e7a2f030b7616010116b6871ce11a92a_submitter_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

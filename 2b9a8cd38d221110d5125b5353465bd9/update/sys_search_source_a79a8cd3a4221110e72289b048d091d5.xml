@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_921453_test_document_approval_category">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <group/>
+        <name>Document Approval Category</name>
+        <roles/>
+        <source_table>x_921453_test_document_approval_category</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:57</sys_created_on>
+        <sys_id>a79a8cd3a4221110e72289b048d091d5</sys_id>
+        <sys_name>Document Approval Category</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_search_source_a79a8cd3a4221110e72289b048d091d5</sys_update_name>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=a79a8cd3a4221110e72289b048d091d5"/>
+</record_update>

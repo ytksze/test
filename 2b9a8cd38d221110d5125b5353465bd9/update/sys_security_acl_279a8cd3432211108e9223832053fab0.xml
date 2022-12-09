@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in sn_doc_approval_document_approval, if the ACL script returns true.</description>
+        <name>x_921453_test_document_approval</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = false;
+
+if(gs.hasRole('x_921453_test.approver') || gs.hasRole('x_921453_test.admin') || (gs.hasRole('x_921453_test.submitter') && gs.getUserName() == current.sys_created_by) || current.isNewRecord())
+	answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:24</sys_created_on>
+        <sys_id>279a8cd3432211108e9223832053fab0</sys_id>
+        <sys_name>x_921453_test_document_approval</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_security_acl_279a8cd3432211108e9223832053fab0</sys_update_name>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

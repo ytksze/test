@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <jump_to_screen display_value="Navigate to document approvals this year">eb9a8cd3d92211105b73d28bfe1d4bad</jump_to_screen>
+        <name>Approvals This Year</name>
+        <report display_value="Approvals This Year">e39a8cd3ff22111011a0cbffc1b7dfb3</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:37:58</sys_created_on>
+        <sys_id>6f9a8cd3a7221110bb55f0cd40226dac</sys_id>
+        <sys_name>Approvals This Year</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_sg_chart_6f9a8cd3a7221110bb55f0cd40226dac</sys_update_name>
+        <title>Approvals This Year</title>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>true</advanced>
+        <advanced_layout><![CDATA[<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto"/>
+<style>
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive columns */
+/* On screens that are 600px wide or more switch to 600px */
+@media screen and (min-width: 600px) {
+  div.container {
+    width: 600px;
+  }
+}
+
+/* On screens that are 600px wide or less switch to 375px */
+@media screen and (max-width: 600px) {
+ div.container {
+    width: 375px;
+  }
+}
+
+.card-header {
+  background-color: #003b31 !important;
+  color : white;
+}
+	
+.btn-primary {
+  color: white;
+  text-decoration: none !important;
+  text-align: center;
+  display: inline-block;
+  line-height: 14px;
+  background: #707070 0% 0% no-repeat padding-box !important;
+  height: 40px;
+  width: 192px;
+  border-radius: 6px;
+  opacity: 1;
+}
+.doc-status{
+	height: 42px;
+	width: 42px;
+	}
+		
+.nopadding {
+ padding: 0px!important;
+}
+	
+.full {
+ width: 100%;
+}
+	
+div.card-body {
+       padding-left: 0px !important;
+       padding-right: 0px !important;;
+    }
+.document-header {
+	font-size: 32px;
+	font-weight: bold;
+}		
+.document-footer {
+  	text-align: center;
+	background-color: #003b31;
+}
+
+.document-footer-text {
+	font-size: 12px;
+	color: white;
+	padding: 2px;
+	padding-block-start: 2px;
+}	
+.document-content-text {
+	font-size: 16px;
+	padding: 2;
+    margin: 0;
+	color: #223638
+}	
+.document-content-label {
+	font-size: 9px;
+	font-weight: bold;
+	padding: 2;
+    margin: 0;
+}
+.card-image-status {
+  fill: #0378D6;
+  background-color:#0378D6 ;
+  border-radius: 50%;	
+}
+
+</style>
+</head>
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" /> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+<body>
+ ${notification:body}
+</body>	
+</html>]]></advanced_layout>
+        <description/>
+        <layout/>
+        <name>Document Approval Notification Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:18</sys_created_on>
+        <sys_id>e39a8cd389221110804e87d29ccf48d1</sys_id>
+        <sys_name>Document Approval Notification Layout</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_email_layout_e39a8cd389221110804e87d29ccf48d1</sys_update_name>
+    </sys_email_layout>
+</record_update>

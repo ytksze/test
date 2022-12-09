@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="document_record_display">ab9a8cd3252211106ec6a29a23d2499e</macroponent>
+        <name>Page script for redirection to landing page after deletion</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    
+   if(!api.data.glide_form_1.nowRecordFormBlob.isValidRecord){
+       helpers.navigate.to("doc_landing");
+   }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:07</sys_created_on>
+        <sys_id>639a8cd38c2211103ebb42f04093429b</sys_id>
+        <sys_name>Page script for redirection to landing page after deletion</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_client_script_639a8cd38c2211103ebb42f04093429b</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

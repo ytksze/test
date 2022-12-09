@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_921453_test_document_approval_category">x_921453_test_document_approval_category</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>DOCC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:07</sys_created_on>
+        <sys_id>e79a8cd3ad221110bf4ec1389932beb3</sys_id>
+        <sys_name>DOCC</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_number_e79a8cd3ad221110bf4ec1389932beb3</sys_update_name>
+    </sys_number>
+</record_update>

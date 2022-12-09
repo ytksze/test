@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <description/>
+        <icon>77a19b4a1b6fd1107221877ddc4bcb93</icon>
+        <name>VPN</name>
+        <order>200</order>
+        <parent_topic display_value="Network">bfa19b4a1b6fd1107221877ddc4bcb56</parent_topic>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:57</sys_created_on>
+        <sys_id>33a19b4a1b6fd1107221877ddc4bcb91</sys_id>
+        <sys_name>VPN</sys_name>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>topic_33a19b4a1b6fd1107221877ddc4bcb91</sys_update_name>
+        <taxonomy display_value="Clone Employee">aba19b4a1b6fd1107221877ddc4bcb45</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>IT / Network / VPN</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=33a19b4a1b6fd1107221877ddc4bcb91"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#cfb7c1</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>fef29edb56e11abbe3738612776dc33ac5ff7d73fbc76a8966b09ae66fe9553d</hash>
+        <image_height>112</image_height>
+        <image_width>112</image_width>
+        <size_bytes>2192</size_bytes>
+        <size_compressed>2200</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:57</sys_created_on>
+        <sys_id>77a19b4a1b6fd1107221877ddc4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-05 11:57:57</sys_updated_on>
+        <table_name>ZZ_YYtopic</table_name>
+        <table_sys_id>33a19b4a1b6fd1107221877ddc4bcb91</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="77a19b4a1b6fd1107221877ddc4bcb93">77a19b4a1b6fd1107221877ddc4bcb93</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:57</sys_created_on>
+        <sys_id>bfa19b4a1b6fd1107221877ddc4bcb93</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2920</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="77a19b4a1b6fd1107221877ddc4bcb93">77a19b4a1b6fd1107221877ddc4bcb93</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 11:57:57</sys_created_on>
+        <sys_id>33a19b4a1b6fd1107221877ddc4bcb94</sys_id>
+    </sys_attachment_doc>
+</record_update>

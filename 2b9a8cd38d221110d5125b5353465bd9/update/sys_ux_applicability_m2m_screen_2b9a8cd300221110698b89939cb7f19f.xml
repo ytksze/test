@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Document Approver">2b9a8cd30d221110956208ab604adca1</applicability>
+        <order>0</order>
+        <screen display_value="Search results default">a79a8cd36b221110cf95e9b14de7b89f</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-10-20 01:38:12</sys_created_on>
+        <sys_id>2b9a8cd300221110698b89939cb7f19f</sys_id>
+        <sys_name/>
+        <sys_package display_value="test" source="x_921453_test">2b9a8cd38d221110d5125b5353465bd9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">2b9a8cd38d221110d5125b5353465bd9</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_2b9a8cd300221110698b89939cb7f19f</sys_update_name>
+    </sys_ux_applicability_m2m_screen>
+</record_update>
